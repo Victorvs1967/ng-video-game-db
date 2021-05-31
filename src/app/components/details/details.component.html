@@ -24,9 +24,10 @@
             [animationDuration]="2"
           >
           </mwl-gauge>
-          <a href="{{ game.metacritic_url }}" class="game-guage-label" target="_blank">Metacritic</a>
+          <a href="{{ game.metacritic_url }}" class="game-gauge-label" target="_blank">Metacritic</a>
         </div>
       </div>
     </div>
+    <app-game-tabs [game]="game"></app-game-tabs>
   </div>
 </div>

@@ -12,12 +12,12 @@
     padding: 10px;
 
     .dial {
-      stroke-width: 10;
+      stroke-width: 13;
     }
 
     .value {
       stroke-dasharray: none;
-      stroke-width: 13;
+      stroke-width: 10;
     }
 
     .value-text {
@@ -26,8 +26,11 @@
       font-size: 24px;
     }
   }
+}
 
-  .game-gauge {
+.game {
+
+  &-gauge {
     position: absolute;
     top: 50px;
     right: 0;
@@ -39,9 +42,6 @@
       bottom: 60px;
     }
   }
-}
-
-.game {
 
   &-banner {
     height: 442px;
