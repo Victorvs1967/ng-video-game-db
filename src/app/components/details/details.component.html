@@ -7,7 +7,7 @@
       <div class="game-header">
         <h1 class="game-header-title">{{ game.name }}</h1>
         <h2 class="game-header-release-date">
-          Release: {{ game.released | date}}
+          Release: {{ game.released | date: "dd MMMM yyyy" }}
         </h2>
         <p class="game-header-genres">
           <span *ngFor="let genre of game.genres; let last = last;">{{ genre.name }}<span *ngIf="!last">,  </span></span>
